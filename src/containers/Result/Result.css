@@ -1,0 +1,83 @@
+.result-page-wrapper {
+    background-image: url(../../images/binding-light.png);
+    min-height: 100vh;
+    padding: 20px 10px 10px;
+}
+
+.result-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.table-wrapper {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.result-table {
+    margin-top: 20px;
+    width: 100%;
+    font-family: 'Palatino Linotype', serif;
+}
+
+.table-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.result-header {
+    font-weight: bold;
+    width: 100%;
+}
+
+.result-ceil {
+    width: 50%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.result-header > .result-date,
+.result-header > .result-value {
+    border-top: 2px solid black;
+}
+
+.result-date {
+    border-left: 2px solid black;
+}
+
+.loader-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-container {
+    width: 70%;
+    min-width: 500px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-header {
+    font-family: 'Palatino Linotype', serif;
+    color: #D9E778;
+    font-size: 35px;
+    width: max-content;
+    margin: 0 auto 15px auto;
+}
+
+.error {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-family: 'Palatino Linotype', serif;
+    font-size: 18px;
+}

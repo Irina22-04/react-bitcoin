@@ -1,0 +1,43 @@
+.dates-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table-header {
+    font-family: 'Palatino Linotype', serif;
+    color: #D9E778;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-shadow: 1px -1px 2px gray;
+}
+
+.dates-inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.ui.olive.submit-button {
+    width: 15%;
+    min-width: 100px;
+    max-width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.label {
+    font-family: 'Palatino Linotype', serif;
+    color: olive;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.table-field {
+    margin: 10px;
+}
+
+.error-validation {
+    color: red;
+}
